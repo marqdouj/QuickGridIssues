@@ -21,3 +21,9 @@ If I was using an SQL Server database (in this case, localdb) then I had these i
 
 When clicking on the button for the first time that data is refreshed from the database. Then every click after that works as expected.
 Filtered. When a filter is applied to the IQueryable then the data is refershed from the database every time a button is clicked.
+
+[FEEDBACK]
+https://github.com/dotnet/aspnetcore/issues/44432
+
+Override ShouldRender if there is no need to update the UI.
+See issue for more.
